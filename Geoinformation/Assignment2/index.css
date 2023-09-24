@@ -1,10 +1,5 @@
 /* You can remove this page div in your website */
-#page{
-    width:100%;
-    height:100%;
-    position:absolute;
-    background:#eee;
-  }
+
   /* Our normalize css */
   *{
     margin:0;
