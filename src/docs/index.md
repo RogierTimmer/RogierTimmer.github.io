@@ -8,7 +8,7 @@ hero:
   tagline: Master Student at the University of Twente
   image:
     src: "Photo/ProfielFoto.jpg"
-    alt: Rogier Timmer
+    alt: Rogier Timmer in Japan
   actions:
     - theme: brand
       text: CV English
