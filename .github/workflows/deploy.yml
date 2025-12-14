@@ -41,11 +41,16 @@ jobs:
         with:
           node-version: 24
           cache: npm # or pnpm / yarn
+          # When package.json and lockfile are in a subdirectory, point
+          # the action to the lockfile so the dependency cache works.
+          cache-dependency-path: src/package-lock.json
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
+        working-directory: src
         run: npm ci # or pnpm install / yarn install / bun install
       - name: Build with VitePress
+        working-directory: src
         run: npm run docs:build # or pnpm docs:build / yarn docs:build / bun run docs:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
