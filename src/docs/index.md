@@ -7,7 +7,7 @@ hero:
   text: "Mechanical Engineer"
   tagline: Master Student at the University of Twente
   image:
-    src: "/Photo/ProfielFoto.jpg"
+    src: "Photo/ProfielFoto.jpg"
     alt: Rogier Timmer
   actions:
     - theme: brand
