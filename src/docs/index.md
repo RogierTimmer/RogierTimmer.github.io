@@ -11,7 +11,7 @@ hero:
       text: CV English
       link: /CV-en
     - theme: alt
-      text: Thesis Blog
+      text: Thesis Blog (tbp)
       link: /Thesis
 
 features:
