@@ -1,0 +1,15 @@
+# Enforce LF line endings in repository for text files to avoid CRLF warnings on Windows
+# Use text=auto to let git detect text files, and eol=lf to normalize working copies to LF
+* text=auto eol=lf
+
+# Ensure markdown and config files use LF
+*.md text eol=lf
+src/docs/** text eol=lf
+src/**/*.md text eol=lf
+
+# Don't treat binary files as text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary

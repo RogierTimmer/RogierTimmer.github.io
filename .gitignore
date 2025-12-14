@@ -1,0 +1,11 @@
+# Ignore node modules inside src
+src/node_modules/
+
+# Vitepress build cache
+src/docs/.vitepress/cache/
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
